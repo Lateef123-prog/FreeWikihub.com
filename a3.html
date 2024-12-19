@@ -1,0 +1,64 @@
+<!-- Button to open the modal -->
+<button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+<button onclick="document.getElementById('id02').style.display='block'">Log In</button>
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">times;</span>
+    <form class="modal-content" action="freewikihub.com.html">
+        <div class="container">
+            <link rel="stylesheet" href="a3.css">
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+
+            <p>By creating an account you agree to our <a href="https://www.temu.com/ng/privacy-and-cookie-policy.html?_x_enter_scene_type=cate_tab&_x_vst_scene=adg&_x_ads_channel=bing&_x_ads_sub_channel=search&_x_ads_account=176876617&_x_ads_set=521647961&_x_ads_id=1312819299405136&_x_ads_creative_id=82051436977213&_x_ns_source=o&_x_ns_msclkid=c765974230b213a46e25f020bb04be9a&_x_ns_match_type=e&_x_ns_bid_match_type=bp&_x_ns_query=teemu&_x_ns_keyword=temuu&_x_ns_device=c&_x_ns_targetid=kwd-82052375947958%3Aloc-137&_x_ns_extensionid=&_x_sessn_id=wtj4819g5l&refer_page_name=category&refer_page_id=10012_1734520562136_0u2s1qy1v4&refer_page_sn=10012" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+            <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                <button type="submit" class="signup">Sign Up</button>
+            </div>
+        </div>
+    </form>
+</div>
+<!-- The Modal (contains the Log IN form -->
+<div id="id02" class="modal">
+    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">times;</span>
+    <form class="modal-content" action="freewikihub.com.html">
+        <div class="container">
+            <link rel="stylesheet" href="a3.css">
+            <h1>Log In</h1>
+            <p>Please log in to your account.</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+
+            <p><a
+                    href="https://www.temu.com/ng/privacy-and-cookie-policy.html?_x_enter_scene_type=cate_tab&_x_vst_scene=adg&_x_ads_channel=bing&_x_ads_sub_channel=search&_x_ads_account=176876617&_x_ads_set=521647961&_x_ads_id=1312819299405136&_x_ads_creative_id=82051436977213&_x_ns_source=o&_x_ns_msclkid=c765974230b213a46e25f020bb04be9a&_x_ns_match_type=e&_x_ns_bid_match_type=bp&_x_ns_query=teemu&_x_ns_keyword=temuu&_x_ns_device=c&_x_ns_targetid=kwd-82052375947958%3Aloc-137&_x_ns_extensionid=&_x_sessn_id=wtj4819g5l&refer_page_name=category&refer_page_id=10012_1734520562136_0u2s1qy1v4&refer_page_sn=10012" style="color:dodgerblue">Terms & Privacy</a>.</p>
+            <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                <button type="submit" class="Login">Log In</button>
+            </div>
+        </div>
+    </form>
+</div>
